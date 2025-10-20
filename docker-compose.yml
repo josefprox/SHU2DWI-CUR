@@ -9,10 +9,11 @@ services:
     depends_on:
       - db
 
-  db:
-    image: mysql:8
-    environment:
-      MYSQL_ROOT_PASSWORD: root
-      MYSQL_DATABASE: proyecto
-    ports:
-      - "3306:3306"
+ #  db:
+#    image: mysql:5.7
+#    restart: always
+#    environment:
+#      MYSQL_ROOT_PASSWORD: root
+#      MYSQL_DATABASE: test
+#    ports:
+#      - "3306:3306"
