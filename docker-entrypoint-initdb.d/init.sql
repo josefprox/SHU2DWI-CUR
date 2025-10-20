@@ -1,0 +1,13 @@
+CREATE DATABASE IF NOT EXISTS cursos;
+
+USE cursos;
+
+CREATE TABLE IF NOT EXISTS usuarios (
+    id INT(11) NOT NULL AUTO_INCREMENT,
+    usuario VARCHAR(80) NOT NULL,
+    correo VARCHAR(80) NOT NULL,
+    clave VARCHAR(80) NOT NULL,
+    curso VARCHAR(80),
+    token VARCHAR(500),
+    PRIMARY KEY (id)
+);

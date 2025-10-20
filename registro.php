@@ -1,6 +1,7 @@
 <?php
-require_once 'db_conexion.php';
 session_start();
+require_once 'db_conexion.php';
+
 
 $mensaje = '';
 
